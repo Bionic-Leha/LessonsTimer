@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <item name="android:colorPrimary">#3F51B5</item>
+        <item name="android:colorPrimaryDark">#303F9F</item>
+        <item name="android:colorAccent">#fff</item>
+        <item name="android:actionBarStyle">@style/customActionBar</item>
+        <item name="android:actionOverflowButtonStyle">@style/customOverflowButton</item>
+    </style>
+
+    <style name="customActionBar" parent="android:Widget.Material.Light.ActionBar.Solid">
+        <item name="android:titleTextStyle">@style/MaterialTitle</item>
+    </style>
+
+    <style name="MaterialTitle" parent="android:TextAppearance.Material.Title">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="customOverflowButton" parent="android:Widget.Material.ActionButton.Overflow">
+        <item name="android:color">#ffffff</item>
+    </style>
+
+    <style name="Dialog" parent="android:Theme.Material.Light.Dialog">
+
+    </style>
+
+</resources>

@@ -1,0 +1,148 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MyActivity">
+
+    <TextView
+        android:text="@string/enter_time"
+        android:id="@+id/tvTimeLeft_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/enter_time"
+        android:id="@+id/tvTimeLeft_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTimeLeft_1"
+        android:layout_alignLeft="@+id/tvTimeLeft_1"
+        android:layout_alignStart="@+id/tvTimeLeft_1"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:text="@string/enter_time"
+        android:id="@+id/tvTimeLeft_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTimeLeft_2"
+        android:layout_alignLeft="@+id/tvTimeLeft_2"
+        android:layout_alignStart="@+id/tvTimeLeft_2"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:text="@string/enter_time"
+        android:id="@+id/tvTimeLeft_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTimeLeft_3"
+        android:layout_alignLeft="@+id/tvTimeLeft_3"
+        android:layout_alignStart="@+id/tvTimeLeft_3"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:text="@string/enter_time"
+        android:id="@+id/tvTimeLeft_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTimeLeft_4"
+        android:layout_alignLeft="@+id/tvTimeLeft_4"
+        android:layout_alignStart="@+id/tvTimeLeft_4"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:text="@string/enter_time"
+        android:id="@+id/tvTimeLeft_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTimeLeft_5"
+        android:layout_alignLeft="@+id/tvTimeLeft_5"
+        android:layout_alignStart="@+id/tvTimeLeft_5"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:text="@string/enter_time"
+        android:id="@+id/tvTimeLeft_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTimeLeft_6"
+        android:layout_alignLeft="@+id/tvTimeLeft_6"
+        android:layout_alignStart="@+id/tvTimeLeft_6"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:text="Test tv"
+        android:id="@+id/tvTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTimeLeft_7"
+        android:layout_alignLeft="@+id/tvTimeLeft_7"
+        android:layout_alignStart="@+id/tvTimeLeft_7"
+        android:layout_marginTop="35dp"
+        android:visibility="gone"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/less_list_t" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_start"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="gone" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update_btn"
+        android:id="@+id/btnShow"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_stop"
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone" />
+
+    <fragment
+        android:id="@+id/adPlaceHolder"
+        android:name="com.bionic.lessonstimer.MyActivity$PlaceholderFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adFragment" />
+
+    <fragment
+        android:id="@+id/adFragment"
+        android:name="com.bionic.lessonstimer.MyActivity$AdFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/updProgress"
+        android:layout_below="@+id/tvTimeLeft_7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

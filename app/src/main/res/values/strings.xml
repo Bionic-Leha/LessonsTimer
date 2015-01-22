@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lessons Timer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="end_time">Min left</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_stop">Stop</string>
+    <string name="pick_new_time">Pick Time</string>
+    <string-array name="less_num">
+        <item>End 1 lesson</item>
+        <item>End 2 lesson</item>
+        <item>End 3 lesson</item>
+        <item>End 4 lesson</item>
+        <item>End 5 lesson</item>
+        <item>End 6 lesson</item>
+        <item>End 7 lesson</item>
+    </string-array>
+    <string name="banner_ad_unit_id">ca-app-pub-7582649126900684/1116421657</string>
+    <string name="st_less">Start Lesson</string>
+    <string name="end_less">End Lesson</string>
+    <string name="time_saved">Time saved</string>
+    <string name="time_error">Error! Check you time settings</string>
+    <string name="time_loading">Time loaded</string>
+    <string name="update_btn">Update</string>
+    <string name="min_left">minutes left</string>
+    <string name="min_left_1">minutes left</string>
+    <string name="min_left_2">minutes left</string>
+    <string name="min_left_3">minute left</string>
+    <string name="time_ended">Lesson finished</string>
+    <string name="time_updated">Time updated</string>
+    <string name="enter_time">Please, enter time on settings</string>
+
+    <string name="mainscreen">Main Screen</string>
+    <string name="upd_btn">Update buttons</string>
+    <string name="buttons">Buttons</string>
+    <string name="onclick">onClick</string>
+
+    <string name="lesson_1">Lesson 1</string>
+    <string name="lesson_2">Lesson 2</string>
+    <string name="lesson_3">Lesson 3</string>
+    <string name="lesson_4">Lesson 4</string>
+    <string name="lesson_5">Lesson 5</string>
+    <string name="lesson_6">Lesson 6</string>
+    <string name="lesson_7">Lesson 7</string>
+    <string name="save_btn">Save</string>
+</resources>

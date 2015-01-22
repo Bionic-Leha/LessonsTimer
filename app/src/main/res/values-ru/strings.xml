@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Таймер уроков</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Настройки</string>
+    <string name="end_time">минут осталось</string>
+    <string name="btn_start">Старт</string>
+    <string name="btn_stop">Стоп</string>
+    <string name="pick_new_time">Установить время</string>
+    <string-array name="less_num">
+        <item>Конец 1 урока</item>
+        <item>Конец 2 урока</item>
+        <item>Конец 3 урока</item>
+        <item>Конец 4 урока</item>
+        <item>Конец 5 урока</item>
+        <item>Конец 6 урока</item>
+        <item>Конец 7 урока</item>
+    </string-array>
+    <string name="banner_ad_unit_id">ca-app-pub-7582649126900684/1116421657</string>
+    <string name="st_less">Начало урока</string>
+    <string name="end_less">Конец урока</string>
+    <string name="time_saved">Время сохранено</string>
+    <string name="time_error">Ошибка! Проверьте настройки времени уроков</string>
+    <string name="time_loading">Время загружено</string>
+    <string name="update_btn">Обновить</string>
+    <string name="min_left">мин осталось</string>
+    <string name="min_left_1">минут осталось</string>
+    <string name="min_left_2">минуты осталось</string>
+    <string name="min_left_3">минута осталось</string>
+    <string name="time_ended">Урок завершен</string>
+    <string name="time_updated">Время обновлено</string>
+    <string name="enter_time">Пожалуйста, введите время в настройках</string>
+
+    <string name="mainscreen">Главный экран</string>
+    <string name="upd_btn">Кнопка обновления</string>
+    <string name="buttons">Кнопки</string>
+    <string name="onclick">onClick</string>
+
+    <string name="lesson_1">Урок 1</string>
+    <string name="lesson_2">Урок 2</string>
+    <string name="lesson_3">Урок 3</string>
+    <string name="lesson_4">Урок 4</string>
+    <string name="lesson_5">Урок 5</string>
+    <string name="lesson_6">Урок 6</string>
+    <string name="lesson_7">Урок 7</string>
+    <string name="save_btn">Сохранить</string>
+</resources>

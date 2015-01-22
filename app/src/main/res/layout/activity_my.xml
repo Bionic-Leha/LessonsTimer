@@ -1,0 +1,328 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_above="@+id/adFragment">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp">
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_1"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="7dp"
+                card_view:cardCornerRadius="4dp">
+
+                <TextView
+                    android:text="@string/lesson_1"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/tvTimeName_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="9dp"/>
+
+                <TextView
+                android:text="@string/enter_time"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/tvTimeLeft_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="45dp"/>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_2"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="93dp"
+                card_view:cardCornerRadius="4dp">
+
+                <TextView
+                    android:text="@string/lesson_2"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/tvTimeName_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="9dp"/>
+
+                <TextView
+                android:text="@string/enter_time"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/tvTimeLeft_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="45dp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_3"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="179dp"
+                card_view:cardCornerRadius="4dp">
+
+                <TextView
+                    android:text="@string/lesson_3"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/tvTimeName_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="9dp"/>
+
+                <TextView
+                    android:text="@string/enter_time"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/tvTimeLeft_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="45dp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_4"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="265dp"
+                card_view:cardCornerRadius="4dp">
+
+                <TextView
+                    android:text="@string/lesson_4"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/tvTimeName_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="9dp"/>
+
+                <TextView
+                    android:text="@string/enter_time"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/tvTimeLeft_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="45dp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_5"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="351dp"
+                card_view:cardCornerRadius="4dp">
+
+            <TextView
+                android:text="@string/lesson_5"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/tvTimeName_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="9dp"/>
+
+            <TextView
+                android:text="@string/enter_time"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/tvTimeLeft_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvTimeLeft_4"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="45dp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_6"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="437dp"
+                card_view:cardCornerRadius="4dp">
+
+            <TextView
+                android:text="@string/lesson_6"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/tvTimeName_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="9dp"/>
+
+            <TextView
+                android:text="@string/enter_time"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/tvTimeLeft_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvTimeLeft_5"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="45dp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_7"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="523dp"
+                card_view:cardCornerRadius="4dp">
+
+            <TextView
+                android:text="@string/lesson_7"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/tvTimeName_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="9dp"/>
+
+            <TextView
+                android:text="@string/enter_time"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/tvTimeLeft_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="45dp" />
+
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:text="Test tv"
+        android:id="@+id/tvTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:visibility="gone"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/less_list_t"
+        android:visibility="gone" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_start"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="gone" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update_btn"
+        android:id="@+id/btnShow"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_stop"
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone" />
+
+    <fragment
+        android:id="@+id/adFragment"
+        android:name="com.bionic.lessonstimer.MyActivity$AdFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        tools:layout="@layout/fragment_ad" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/updProgress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:visibility="gone" />
+
+</RelativeLayout>
