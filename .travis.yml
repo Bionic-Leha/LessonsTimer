@@ -5,6 +5,11 @@ before_install:
   
 before_script:
   - chmod +x gradlew
+  
+script: ./gradlew connectedAndroidTest
+
+notifications:
+  email: false
 
 android:
   components:
