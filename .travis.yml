@@ -1,5 +1,5 @@
 language: android
-- chmod +x gradlew
+
 android:
   components:
     - build-tools-21.1.2
