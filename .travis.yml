@@ -1,5 +1,7 @@
 language: android
 
+install: ./install-dependencies.sh
+
 android:
   components:
     - build-tools-21.1.2
